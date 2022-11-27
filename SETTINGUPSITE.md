@@ -1,8 +1,8 @@
-1. pull the code https://github.com/suresh-kumara-gist/lando-opensocial-democontent to your webroot directory 
+1. pull the code https://github.com/suresh-kumara-gist/lando-opensocial-democontent.git to your webroot directory 
 
 /var/www/html/lando-opensocial-democontent 
 
-2. $ cd /var/www/html/lando-opensocial-democontent
+2. $ cd /var/www/html/lando-opensocial-democontent and run $ composer install
 
 3. import database drupal9.2022-11-27-1669539774.sql.gz into your mysql database and delete or move drupal9.2022-11-27-1669539774.sql.gz  file some other directory.
 
@@ -48,3 +48,5 @@ $settings['trusted_host_patterns'] = [
 /var/www/html/lando-opensocial-democontent/html
 
 Site works fine with php 7.4 and php 8.0
+
+8. remove .lando.yml file and remove .git directory  and setup your own git repository
