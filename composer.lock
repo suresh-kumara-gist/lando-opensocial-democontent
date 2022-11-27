@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "de9475ec1d01c61889cfc2c117b50756",
+    "content-hash": "ba3e86bae28e0d038c7806abf13ad508",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4007,6 +4007,62 @@
                 "source": "https://git.drupalcode.org/project/metatag",
                 "issues": "https://www.drupal.org/project/issues/metatag",
                 "docs": "https://www.drupal.org/docs/8/modules/metatag"
+            }
+        },
+        {
+            "name": "drupal/miniorange_saml",
+            "version": "2.28.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/miniorange_saml.git",
+                "reference": "8.x-2.28"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/miniorange_saml-8.x-2.28.zip",
+                "reference": "8.x-2.28",
+                "shasum": "c034898415fe4361aabe16ee5a264b69f5f9940d"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.28",
+                    "datestamp": "1669119167",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "abhay19",
+                    "homepage": "https://www.drupal.org/user/3549350"
+                },
+                {
+                    "name": "arsh244",
+                    "homepage": "https://www.drupal.org/user/3619504"
+                },
+                {
+                    "name": "gauravsood91",
+                    "homepage": "https://www.drupal.org/user/3288491"
+                },
+                {
+                    "name": "Shrishail Hiremath",
+                    "homepage": "https://www.drupal.org/user/3669372"
+                }
+            ],
+            "description": "Login to Drupal site through an external IdP using the SAML 2.0 Protocol",
+            "homepage": "https://www.drupal.org/project/miniorange_saml",
+            "support": {
+                "source": "https://git.drupalcode.org/project/miniorange_saml"
             }
         },
         {
@@ -11793,5 +11849,5 @@
         "php": "^7.4 || ^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.0.0"
 }
