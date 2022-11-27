@@ -52,6 +52,7 @@ Site works fine with php 7.4 and php 8.0
 
 8. remove .lando.yml file and remove .git directory  and setup your own git repository
 
+9. configure swiftmailer in settings.php  
 ```
 $config['swiftmailer.transport']['transport'] = ''; // 'smtp', etc
 $config['swiftmailer.transport']['smtp_host'] = '';
