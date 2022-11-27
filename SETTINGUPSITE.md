@@ -4,7 +4,7 @@
 
 2. $ cd /var/www/html/lando-opensocial-democontent and run $ composer install
 
-3. import database drupal9.2022-11-27-1669539774.sql.gz into your mysql database and delete or move drupal9.2022-11-27-1669539774.sql.gz  file some other directory.
+3. import database drupal9.2022-11-27-1669539774.sql.gz into your mysql database and delete or move drupal9.2022-11-27-1669539774.sql.gz  file into some other directory.
 
 4. edit settings.php file cd /var/www/html/lando-opensocial-democontent/html/sites/default/settings.php
 
