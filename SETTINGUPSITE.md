@@ -25,7 +25,7 @@ II. set private directory
 
     $settings['file_private_path'] = '';
 
-III. Change configuration sync directroy 
+III. Change configuration sync directroy to other directory
 $settings['config_sync_directory'] = 'sites/default/files/config_dGJdaKP-7r_Udqh1gf7MnxOMD4PTc8LOH1WmUQrHYMm5nyBB0DXSgz_3Feuh1m-sloiue6Cy-g/sync';
 
 
