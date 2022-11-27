@@ -50,3 +50,12 @@ $settings['trusted_host_patterns'] = [
 Site works fine with php 7.4 and php 8.0
 
 8. remove .lando.yml file and remove .git directory  and setup your own git repository
+
+
+$config['swiftmailer.transport']['transport'] = ''; // 'smtp', etc
+$config['swiftmailer.transport']['smtp_host'] = '';
+$config['swiftmailer.transport']['smtp_port'] = 123; // e.g. 465
+$config['swiftmailer.transport']['smtp_encryption'] = ''; // 'tls', 'ssl', '0' for no encryption.
+$config['swiftmailer.transport']['smtp_credential_provider'] = 'swiftmailer';
+$config['swiftmailer.transport']['smtp_credentials']['swiftmailer']['username'] = '';
+$config['swiftmailer.transport']['smtp_credentials']['swiftmailer']['password'] = '';
